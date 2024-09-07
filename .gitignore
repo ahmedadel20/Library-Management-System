@@ -392,3 +392,5 @@ FodyWeavers.xsd
 *.sln.iml
 /.vs
 .vs/Library-Management-System/v17/.suo
+/Library-Management-System/obj
+.vs/Library-Management-System/v17/.suo
