@@ -392,3 +392,4 @@ FodyWeavers.xsd
 *.sln.iml
 /Library-Management-System/obj
 /.vs/Library-Management-System/DesignTimeBuild
+/Library-Management-System/obj
