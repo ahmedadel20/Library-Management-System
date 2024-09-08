@@ -393,4 +393,7 @@ FodyWeavers.xsd
 /.vs
 .vs/Library-Management-System/v17/.suo
 /Library-Management-System/obj
-.vs/Library-Management-System/v17/.suo
+/.vs/Library-Management-System/DesignTimeBuild
+/Library-Management-System/obj
+/Library-Management-System/obj
+/.vs/Library-Management-System/DesignTimeBuild
