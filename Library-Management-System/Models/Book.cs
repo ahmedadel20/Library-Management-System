@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Transactions;
 
 namespace Library_Management_System.Models
 {
@@ -27,5 +28,7 @@ namespace Library_Management_System.Models
         [Required]
         [MaxLength(50)]
         public string Genre { get; set; }
+
+        public virtual List<Transaction> Transactions { get; set; }
     }
 }

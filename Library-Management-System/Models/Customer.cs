@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Transactions;
 
 namespace Library_Management_System.Models
 {
@@ -19,7 +20,7 @@ namespace Library_Management_System.Models
 
         [Required]
         [MaxLength(50)]
-        public string UserName { get; set; }
+        public string Username { get; set; }
 
         [Required]
         [EmailAddress]
@@ -32,5 +33,7 @@ namespace Library_Management_System.Models
 
         [Phone]
         public string PhoneNumber { get; set; }
+
+        public virtual List<Transaction> Transactions { get; set; }
     }
 }
